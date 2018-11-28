@@ -55,7 +55,3 @@ function loadCategorias() {
 	  });
 
 }
-
-export function iCategory_change(event, $w) {
-	filter(lastFilterTitle, $w('#iCategory').value); 
-}
